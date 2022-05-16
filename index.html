@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complex form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<h1>personal detail</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>personal section :</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="browser">Choose your city :</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="kushinagar">
+    <option value="delhi">
+    <option value="gorakhpur">
+    <option value="lucknow">
+    <option value="sitapur">
+    <option value="jaipur">
+    <option value="gujrat">
+  </datalist><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+    
+</body>
+</html>
